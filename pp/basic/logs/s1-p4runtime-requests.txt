@@ -1,0 +1,310 @@
+
+[2025-10-20 23:28:52.696] /p4.v1.P4Runtime/SetForwardingPipelineConfig
+---
+Message too long (78452 bytes)! Skipping log...
+---
+
+[2025-10-20 23:28:52.726] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 49270449
+      match {
+        field_id: 1
+        exact {
+          value: "\000\001"
+        }
+      }
+      match {
+        field_id: 2
+        exact {
+          value: "\000\003"
+        }
+      }
+      action {
+        action {
+          action_id: 23938400
+          params {
+            param_id: 1
+            value: "\000"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.729] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 49270449
+      match {
+        field_id: 1
+        exact {
+          value: "\000\002"
+        }
+      }
+      match {
+        field_id: 2
+        exact {
+          value: "\000\003"
+        }
+      }
+      action {
+        action {
+          action_id: 23938400
+          params {
+            param_id: 1
+            value: "\000"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.732] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 49270449
+      match {
+        field_id: 1
+        exact {
+          value: "\000\003"
+        }
+      }
+      match {
+        field_id: 2
+        exact {
+          value: "\000\001"
+        }
+      }
+      action {
+        action {
+          action_id: 23938400
+          params {
+            param_id: 1
+            value: "\001"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.734] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 49270449
+      match {
+        field_id: 1
+        exact {
+          value: "\000\003"
+        }
+      }
+      match {
+        field_id: 2
+        exact {
+          value: "\000\002"
+        }
+      }
+      action {
+        action {
+          action_id: 23938400
+          params {
+            param_id: 1
+            value: "\001"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.736] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: MODIFY
+  entity {
+    table_entry {
+      table_id: 37375156
+      action {
+        action {
+          action_id: 25652968
+        }
+      }
+      is_default_action: true
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.739] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 37375156
+      match {
+        field_id: 1
+        lpm {
+          value: "\n\000\001\n"
+          prefix_len: 32
+        }
+      }
+      action {
+        action {
+          action_id: 28792405
+          params {
+            param_id: 1
+            value: "\010\000\000\000\001\021"
+          }
+          params {
+            param_id: 2
+            value: "\000\001"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.743] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 37375156
+      match {
+        field_id: 1
+        lpm {
+          value: "\n\000\001\024"
+          prefix_len: 32
+        }
+      }
+      action {
+        action {
+          action_id: 28792405
+          params {
+            param_id: 1
+            value: "\010\000\000\000\002\""
+          }
+          params {
+            param_id: 2
+            value: "\000\002"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.745] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 37375156
+      match {
+        field_id: 1
+        lpm {
+          value: "\n\000\002\036"
+          prefix_len: 32
+        }
+      }
+      action {
+        action {
+          action_id: 28792405
+          params {
+            param_id: 1
+            value: "\010\000\000\000\003\000"
+          }
+          params {
+            param_id: 2
+            value: "\000\003"
+          }
+        }
+      }
+    }
+  }
+}
+---
+
+[2025-10-20 23:28:52.748] /p4.v1.P4Runtime/Write
+---
+election_id {
+  low: 1
+}
+updates {
+  type: INSERT
+  entity {
+    table_entry {
+      table_id: 37375156
+      match {
+        field_id: 1
+        lpm {
+          value: "\n\000\002("
+          prefix_len: 32
+        }
+      }
+      action {
+        action {
+          action_id: 28792405
+          params {
+            param_id: 1
+            value: "\010\000\000\000\003\000"
+          }
+          params {
+            param_id: 2
+            value: "\000\003"
+          }
+        }
+      }
+    }
+  }
+}
+---

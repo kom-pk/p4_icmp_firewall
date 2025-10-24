@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script to add an entry to MyIngress.allow_inbound_src table using simple_switch_CLI
+echo "Adding entry to MyIngress.allow_inbound_src on s1 (Thrift port 9090)"
+echo "table_add MyIngress.allow_inbound_src set_allowed 10.0.2.30 =>" | simple_switch_CLI --thrift-port 9090
